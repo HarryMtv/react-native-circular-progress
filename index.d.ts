@@ -189,7 +189,7 @@ declare module 'react-native-circular-progress' {
      * @param {number} fill current fill-value
      * @return {JSX.Element} the element inside the circle
      */
-    children?: ((fill: number) => JSX.Element) | React.ReactChild;
+    children?: ((fill: number) => React.ReactNode) | React.ReactNode;
 
     /**
      * Style of the children container

@@ -28,8 +28,8 @@
     "prop-types": "^15.8.1"
   },
   "peerDependencies": {
-    "react": ">=16.0.0",
-    "react-native": ">=0.50.0",
-    "react-native-svg": ">=7.0.0"
+    "react": ">=19.0.0",
+    "react-native": ">=0.82.0",
+    "react-native-svg": ">=15.15.0"
   }
 }
