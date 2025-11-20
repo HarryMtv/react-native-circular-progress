@@ -1,11 +1,13 @@
-# react-native-circular-progress
+# @harrymtv/react-native-circular-progress
 
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
-[![Version](https://img.shields.io/npm/v/react-native-circular-progress.svg)](https://www.npmjs.com/package/react-native-circular-progress)
-[![npm](https://img.shields.io/npm/dt/react-native-circular-progress.svg)](https://www.npmjs.com/package/react-native-circular-progress)
+[![Version](https://img.shields.io/npm/v/@harrymtv/react-native-circular-progress.svg)](https://www.npmjs.com/package/@harrymtv/react-native-circular-progress)
+[![npm](https://img.shields.io/npm/dt/@harrymtv/react-native-circular-progress.svg)](https://www.npmjs.com/package/@harrymtv/react-native-circular-progress)
 
 
 React Native component for creating animated, circular progress. Useful for displaying users points for example.
+
+This is a maintained fork of the original package by [Bartosz Gryszko](https://github.com/bgryszko/react-native-circular-progress).
 
 ## Example app
 
@@ -15,7 +17,7 @@ React Native component for creating animated, circular progress. Useful for disp
 
 1. Install this component and `react-native-svg`:
 
-    `npm i --save react-native-circular-progress react-native-svg`
+    `npm i --save @harrymtv/react-native-circular-progress react-native-svg`
 
 2. Link native code for SVG:
 
@@ -23,7 +25,7 @@ React Native component for creating animated, circular progress. Useful for disp
 
 ## Usage
 ```js
-import { AnimatedCircularProgress } from 'react-native-circular-progress';
+import { AnimatedCircularProgress } from '@harrymtv/react-native-circular-progress';
 
 <AnimatedCircularProgress
   size={120}
@@ -129,7 +131,7 @@ reAnimate   | (prefill: number, toVal: number, duration: number, ease: function)
 ## Running example app (Expo)
 
 ```sh
-git clone https://github.com/bgryszko/react-native-circular-progress.git
+git clone https://github.com/HarryMtv/react-native-circular-progress.git
 cd react-native-circular-progress/example-app
 yarn
 yarn start
@@ -137,7 +139,8 @@ yarn start
 
 ## Authors
 
-* Bartosz Gryszko (b@gryszko.com)
+* Igor Martynov
+* Original author: [Bartosz Gryszko](https://github.com/bgryszko/react-native-circular-progress) (b@gryszko.com)
 * Markus Lindqvist
 * Jacob Lauritzen
 * Special thanks to all contributors!

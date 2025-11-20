@@ -1,4 +1,4 @@
-declare module 'react-native-circular-progress' {
+declare module '@harrymtv/react-native-circular-progress' {
   import * as React from 'react';
   import {
     Animated,

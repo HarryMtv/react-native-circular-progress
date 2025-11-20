@@ -8,7 +8,7 @@
 ## Build, Test, and Development Commands
 - `cd example-app && yarn` installs demo dependencies; `yarn start` runs the Expo packager for local validation.
 - `npm pack` from the repo root checks the published bundle and entry points.
-- `npm link && npm link react-native-circular-progress` inside a consumer app helps test changes end to end.
+- `npm link && npm link @harrymtv/react-native-circular-progress` inside a consumer app helps test changes end to end.
 
 ## Coding Style & Naming Conventions
 - Use ES6+ React (class or function) with PropTypes; keep public surface mirrored in `index.d.ts` when adding props.

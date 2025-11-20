@@ -8,7 +8,7 @@ import {
   Text,
   View,
 } from 'react-native';
-import { AnimatedCircularProgress } from 'react-native-circular-progress';
+import { AnimatedCircularProgress } from '@harrymtv/react-native-circular-progress';
 
 type AppState = {
   isMoving: boolean;
